@@ -23,3 +23,15 @@ go.work.sum
 
 # env file
 .env
+
+# Mac
+.DS_Store
+
+# idea
+.idea/
+
+bin/
+
+*.tgz
+
+ginkgo.report

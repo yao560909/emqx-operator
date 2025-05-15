@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- apps_v2beta1_emqx.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

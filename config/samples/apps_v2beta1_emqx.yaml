@@ -1,0 +1,9 @@
+apiVersion: apps.emqx.com/v2beta1
+kind: EMQX
+metadata:
+  labels:
+    app.kubernetes.io/name: emqx-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: emqx-sample
+spec:
+  # TODO(user): Add fields here

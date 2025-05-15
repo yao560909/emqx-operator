@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: emqx-operator
 repo: github.com/yao560909/emqx-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: emqx.com
+  group: apps
+  kind: EMQX
+  path: github.com/yao560909/emqx-operator/api/v2beta1
+  version: v2beta1
 version: "3"
